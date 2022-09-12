@@ -287,9 +287,6 @@ struct LoginViewControllerView: View {
                             .padding(.vertical, getRelativeHeight(12.0))
                             .padding(.leading, getRelativeWidth(83.0))
                     }
-                    .onTapGesture {
-                        loginViewControllerViewModel.googleSignIn()
-                    }
                     .frame(width: getRelativeWidth(343.0), height: getRelativeHeight(36.0),
                            alignment: .center)
                     .overlay(RoundedCorners(topLeft: 8.0, topRight: 8.0, bottomLeft: 8.0,
@@ -321,9 +318,6 @@ struct LoginViewControllerView: View {
                             .padding(.top, getRelativeHeight(11.0))
                             .padding(.bottom, getRelativeHeight(10.0))
                             .padding(.leading, getRelativeWidth(74.0))
-                    }
-                    .onTapGesture {
-                        loginViewControllerViewModel.facebookSignIn()
                     }
                     .frame(width: getRelativeWidth(343.0), height: getRelativeHeight(36.0),
                            alignment: .center)

@@ -5,5 +5,5 @@
 import Foundation
 
 struct AppConstants {
-    static let serverURL: String = ""
+    static let serverURL: String = "@{serverURL}"
 }
